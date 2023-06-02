@@ -9,6 +9,6 @@ pipeline {
 
   }
   environment {
-    LINODE_CLI_TOKEN = 'credentials(\'linode-cli-token\')'
+    LINODE_CLI_TOKEN = '${linode-cli-token}'
   }
 }
